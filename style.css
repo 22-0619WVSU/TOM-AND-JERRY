@@ -1,35 +1,42 @@
-#header{
+        body{
+            margin:0;
+            background-image:url(image/heart.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            position: absolute;
+            opacity: 1;
+            padding: 0px;
 
-    color:black;
-    text-align: center ;
-    padding-left:0px;
-    font-size:50px;
-    padding-top:0px;
-    font-style:bold;
-    padding-bottom:0px;
-}
+        }
 
-#content{
-    font-size:60px;
-    text-align:center;
-    background-color:#55ff82;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+        #MT{
+            font-size: 100px;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+            font-size: 72px;
+            margin-left: 390px;
+            font-family:serif;
+            position: absolute;
+        }
 
-#image{
-    padding-left:200px;
-} 
-     
-body {
-    background-color:#6af5ffee;
-  
-}
+        .description{
+            font-size: 30px;
+            text-align: justify;
+            color:white;
+            text-shadow: 1px 1px 3px #000000;
+            font-family:serif;
+            padding-top:180px;
+            margin-right:610px;
+            margin-left: 150px;
+        }
 
-#footer-1 {
-    text-align: center ;
-    font-size:40px;
-    margin-left: 100px ;
-    margin-right:100px; 
-    margin-top: 200px;
-}
+        #footer{
+           font-size: 15px;
+           text-align: center;
+           margin-top: 180px;
+           margin-left: 0px;
+           color:black;
+           text-shadow: 2px 2px 4px #000000;
+           background-color: blanchedalmond;
+        }
